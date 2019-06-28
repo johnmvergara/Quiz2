@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
         toast.show();
     }
     public void showMessage2(View c){
-        Snackbar sbar = Snackbar.make(c, "Pinindot si buton...", Snackbar.LENGTH_LONG);
+        Snackbar sbar = Snackbar.make(c, "Proceed button was clicked...", Snackbar.LENGTH_LONG);
         sbar.show();
     }
 
